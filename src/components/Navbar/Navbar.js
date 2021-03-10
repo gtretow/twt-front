@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Container>
       <SideMenu>
-        <Logo src="../../img/twitter.png" />
+        <Logo />
         <MenuButton>
           <HomeIcon />
           <span>Página inicial</span>

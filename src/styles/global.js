@@ -33,7 +33,7 @@ background: var(--primary);
   :root {   
     --primary: #FFF;
     --secondary: #15181C;
-    --search: #202327;
+    --search: #EBEEF0;
     --white: #D9D9D9;
     --gray: #7A7A7A;
     --outline: #2F3336;

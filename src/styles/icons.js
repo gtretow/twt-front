@@ -19,4 +19,4 @@ export { Hash } from "@styled-icons/boxicons-regular/Hash";
 
 export { List } from "@styled-icons/bootstrap/List";
 
-export {DotsHorizontalRounded} from "@styled-icons/boxicons-regular/DotsHorizontalRounded"
+export { DotsHorizontalRounded } from "@styled-icons/boxicons-regular/DotsHorizontalRounded";
