@@ -111,7 +111,7 @@ export const EditButton = styled.button`
   outline: 0;
 
   &:hover {
-    background: lightgray;
+    background: var(--twitter-dark-hover);
   }
 
   @media (min-width: 320px) {

@@ -40,6 +40,6 @@ background: var(--primary);
     --retweet: #00C06B;
     --like: #E8265E;
     --twitter: #33A1F2;
-    --twitter-dark-hover: #011017;
+    --twitter-dark-hover: #E8F5FE;
     --twitter-light-hover: #2C8ED6;}
 `;

@@ -1,4 +1,5 @@
 import React from "react";
+import Feed from "../Feed/Feed";
 
 import {
   Container,
@@ -21,7 +22,7 @@ function Timeline() {
         </Banner>
 
         <BioInfo>
-          <EditButton >Editar Perfil</EditButton>
+          <EditButton>Editar Perfil</EditButton>
           <h1>Provi</h1>
           <h2>@provi</h2>
           <p>Provi Challenge</p>
@@ -46,6 +47,7 @@ function Timeline() {
             </span>
           </Follows>
         </BioInfo>
+        <Feed />
       </Container>
     </div>
   );
