@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Container,
-  UpperLevel,
+  SideMenu,
   Logo,
   MenuButton,
   HomeIcon,
@@ -18,7 +18,7 @@ import {
 const Navbar = () => {
   return (
     <Container>
-      <UpperLevel>
+      <SideMenu>
         <Logo src="../../img/twitter.png" />
         <MenuButton>
           <HomeIcon />
@@ -30,7 +30,7 @@ const Navbar = () => {
         </MenuButton>
         <MenuButton>
           <BellIcon />
-          <span>Notificações</span>
+          <span>Notificaçõe</span>
         </MenuButton>
         <MenuButton>
           <EmailIcon />
@@ -38,7 +38,7 @@ const Navbar = () => {
         </MenuButton>
         <MenuButton>
           <FavoriteIcon />
-          <span>Itens salvos</span>
+          <span>Salvo</span>
         </MenuButton>
         <MenuButton>
           <ListIcon />
@@ -52,10 +52,11 @@ const Navbar = () => {
           <DotsIcon />
           <span>Mais</span>
         </MenuButton>
+
         <Button>
           <span>Tweetar</span>
         </Button>
-      </UpperLevel>
+      </SideMenu>
     </Container>
   );
 };

@@ -25,16 +25,19 @@ export const Container = styled.div`
     padding: 9px 19px 20px;
     max-height: 100vh;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 `;
 
-export const UpperLevel = styled.div`
+export const SideMenu = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   @media (min-width: 1280px) {
     align-items: flex-start;
   }
+  width: 200px;
+  
 `;
 
 export const Logo = styled(Twitter)`
@@ -80,7 +83,7 @@ export const MenuButton = styled.button`
     }
 
     @media (min-width: 1280px) {
-      width: 100%;
+      width: 10rem;
       height: unset;
       > span {
         display: inline;
@@ -144,9 +147,7 @@ export const DotsIcon = styled(DotsHorizontalRounded)`
 
 export const Button = styled.button`
   background: var(--twitter);
-
-  border: none;
-  padding: 16px;
+  padding: 14px;
   border-radius: 25px;
   font-weight: bold;
   font-size: 15px;
@@ -162,3 +163,5 @@ export const Button = styled.button`
     color: white;
   }
 `;
+
+export const ButtonContainer = styled.div``;
