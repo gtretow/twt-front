@@ -2,15 +2,15 @@ import React from "react";
 
 import { Container, Wrapper } from "./index";
 
-import Navbar from "../Navbar/Navbar";
-
+/* import Navbar from "../Navbar/Navbar";
+ */import MainLayout from "../MainLayout/MainLayout";
 const Home = () => {
   return (
     <Container>
       <Wrapper>
-        <Navbar />
-        {/*         <Main/>
+        {/*         <Navbar />
          */}
+        <MainLayout />
         {/* <Sidebar/> */}
       </Wrapper>
     </Container>
