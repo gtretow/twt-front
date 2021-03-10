@@ -36,7 +36,7 @@ background: var(--primary);
     --search: #EBEEF0;
     --white: #D9D9D9;
     --gray: #7A7A7A;
-    --outline: #2F3336;
+    --outline: #cfcccc;
     --retweet: #00C06B;
     --like: #E8265E;
     --twitter: #33A1F2;

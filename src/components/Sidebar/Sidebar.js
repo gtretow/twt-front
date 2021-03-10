@@ -2,6 +2,12 @@ import React from "react";
 
 import { Container, SearchWrapper, SearchBar, SearchIcon, Body } from "./index";
 
+
+import SidebarContent from "./SidebarContent/SidebarContent";
+import WhoToFollow from "./SidebarContent/WhoToFollow";
+
+
+
 function Sidebar() {
   return (
     <Container>
@@ -11,7 +17,8 @@ function Sidebar() {
       </SearchWrapper>
 
       <Body>
-        <p>{"lorem ipsum dolor ist.".repeat(10)}</p>
+        <SidebarContent></SidebarContent>
+        <WhoToFollow></WhoToFollow>
       </Body>
     </Container>
   );
