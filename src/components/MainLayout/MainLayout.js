@@ -27,13 +27,7 @@ function MainLayout() {
           <span>1000 Tweets</span>
         </Bio>
       </Header>
-       <Timeline/>
-
-
-
-
-
-
+      <Timeline />
 
       <RSideBar>
         <HomeIcon />
