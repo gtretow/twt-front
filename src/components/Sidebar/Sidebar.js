@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Container, SearchWrapper, SearchBar, SearchIcon, Body } from "./index";
+import Footer from "./SidebarContent/Footer/Footer";
 
 import SidebarContent from "./SidebarContent/SidebarContent";
 import WhoToFollow from "./SidebarContent/WhoToFollow/WhoToFollow";
@@ -15,8 +16,8 @@ function Sidebar() {
 
       <Body>
         <SidebarContent />
-        <WhoToFollow/>
-
+        <WhoToFollow />
+        <Footer/>
       </Body>
     </Container>
   );
