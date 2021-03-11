@@ -2,14 +2,30 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: column;
   background: var(--search);
   border-radius: 14px;
-  justify-content: space-between;
-  > div {
-    display: flex;
-    align-items: center;
+`;
+
+export const Item = styled.div`
+  padding: 10px 16px;
+
+  & + div {
+    border-top: 1px solid var(--outline);
   }
+
+  &:first-child {
+    padding-top: 13px;
+  }
+  &:last-child {
+    padding-bottom: 15px;
+  }
+`;
+
+export const Title = styled.span`
+  font-weight: bold;
+  font-size: 19px;
+  
 `;
 
 export const Avatar = styled.div`
@@ -18,18 +34,6 @@ export const Avatar = styled.div`
   background: var(--gray);
   border-radius: 50%;
   margin-right: 10px;
-`;
-
-export const Info = styled.div`
-  display: flex;
-  flex-direction: column;
-  > strong {
-    font-size: 14px;
-  }
-  > span {
-    font-size: 14px;
-    color: var(--gray);
-  }
 `;
 
 export const FollowButton = styled.button`
@@ -44,24 +48,5 @@ export const FollowButton = styled.button`
 
   &:hover {
     background: var(--twitter-dark-hover);
-  }
-`;
-
-export const Title = styled.span`
-  font-weight: bold;
-  font-size: 19px;
-`;
-export const Item = styled.div`
-  padding: 10px 16px;
-
-  & + div {
-    border-top: 1px solid var(--outline);
-  }
-
-  &:first-child {
-    padding-top: 13px;
-  }
-  &:last-child {
-    padding-bottom: 15px;
   }
 `;

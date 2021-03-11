@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Avatar, Item, FollowButton, Title } from "./index2";
+import { Container, Avatar, Item, FollowButton, Title } from "./index";
 const elements = ["teste", "teste", "teste"];
 
 function WhoToFollow() {

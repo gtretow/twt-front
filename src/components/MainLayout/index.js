@@ -10,6 +10,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  @media (min-width: 1000px) {
+    width:50%;
+  } ;
 `;
 
 export const Header = styled.div`
