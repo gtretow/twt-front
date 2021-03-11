@@ -7,7 +7,7 @@ function WhoToFollow() {
   return (
     <Container>
       <Item>
-        <Title>Tendencias do Brasil</Title>
+        <Title>Quem seguir</Title>
       </Item>
       <div>
         {elements.map((element, idx) => (
