@@ -13,8 +13,10 @@ function WhoToFollow() {
         {elements.map((element, idx) => (
           <Item key={idx}>
             <Avatar />
+
             <strong>{element}</strong>
-            <span>APELIDO</span>
+            <span>@usuario</span>
+
             <FollowButton>Seguir</FollowButton>
           </Item>
         ))}

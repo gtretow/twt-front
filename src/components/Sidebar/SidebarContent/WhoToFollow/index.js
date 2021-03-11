@@ -7,8 +7,10 @@ export const Container = styled.div`
   border-radius: 14px;
 `;
 
+
 export const Item = styled.div`
   padding: 10px 16px;
+ 
 
   & + div {
     border-top: 1px solid var(--outline);
@@ -25,7 +27,6 @@ export const Item = styled.div`
 export const Title = styled.span`
   font-weight: bold;
   font-size: 19px;
-  
 `;
 
 export const Avatar = styled.div`

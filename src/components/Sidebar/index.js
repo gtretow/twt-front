@@ -7,13 +7,15 @@ export const Container = styled.div`
   @media (min-width: 1000px) {
     display: flex;
     flex-direction: column;
-    width: min(399px, 100%);
+    width: min(400px, 100%);
   } ;
 `;
 
 export const SearchWrapper = styled.div`
   padding: 10px 24px;
-  width: min-content(399px, 100%);
+  /*   selects the smallest (most negative) value from a list of comma-separated expressions*/
+  width: min(400px, 100%);
+  /* max escolhe o maior valor entre os valores i.e (60px, 5vw) o valor será 60px até que a tela permita 5vw ser > que 60px*/
   position: fixed;
   top: 0;
   z-index: 2;
@@ -45,11 +47,13 @@ export const SearchBar = styled.input`
   }
 
   outline: 0;
+
   &:focus {
     border: 1px solid var(--twitter);
     fill: var(--gray);
   }
 `;
+
 export const Body = styled.div`
   display: flex;
   flex-direction: column;
