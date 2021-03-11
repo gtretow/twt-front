@@ -2,11 +2,8 @@ import React from "react";
 
 import { Container, SearchWrapper, SearchBar, SearchIcon, Body } from "./index";
 
-
 import SidebarContent from "./SidebarContent/SidebarContent";
-import WhoToFollow from "./SidebarContent/WhoToFollow";
-
-
+import WhoToFollow from "./SidebarContent/WhoToFollow/WhoToFollow";
 
 function Sidebar() {
   return (
@@ -17,8 +14,9 @@ function Sidebar() {
       </SearchWrapper>
 
       <Body>
-        <SidebarContent></SidebarContent>
-        <WhoToFollow></WhoToFollow>
+        <SidebarContent />
+        <WhoToFollow/>
+
       </Body>
     </Container>
   );

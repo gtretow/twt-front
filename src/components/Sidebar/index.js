@@ -51,10 +51,13 @@ export const SearchBar = styled.input`
   }
 `;
 export const Body = styled.div`
-  display: fill;
+  display: flex;
   flex-direction: column;
   padding: 57px 24px 200px;
   margin-top: 3px;
+  > div + div {
+    margin-top: 15px;
+  }
 `;
 
 export const SearchIcon = styled(Search)`

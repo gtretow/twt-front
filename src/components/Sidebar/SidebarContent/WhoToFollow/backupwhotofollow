@@ -1,24 +1,25 @@
 import React from "react";
 
-import { Container, Avatar, Item, FollowButton, Title } from "./index2";
+import { Container, Avatar, Info, FollowButton, Item, Title } from "./index";
 const elements = ["teste", "teste", "teste"];
 
 function WhoToFollow() {
   return (
     <Container>
       <Item>
-        <Title>Tendencias do Brasil</Title>
+        <Title>Quem seguir</Title>
       </Item>
       <div>
+        <Avatar />
+
         {elements.map((element, idx) => (
-          <Item key={idx}>
-            <Avatar />
+          <Info key={idx}>
             <strong>{element}</strong>
             <span>APELIDO</span>
-            <FollowButton>Seguir</FollowButton>
-          </Item>
+          </Info>
         ))}
       </div>
+      <FollowButton>Seguir</FollowButton>
     </Container>
   );
 }
