@@ -7,7 +7,6 @@ import { Container, Avatar, Item, FollowButton, Title } from "./index";
 
 function WhoToFollow() {
   /* const { user } = useContext(UserContext); */
-  
 
   const [users, setUser] = useState([]);
   const url = "https://jsonplaceholder.typicode.com/posts/1/comments";
@@ -19,7 +18,7 @@ function WhoToFollow() {
         const response = await axios.get(url);
 
         setUser([...response.data]);
-        console.log(response.data)
+        console.log(response.data);
       } catch (err) {
         console.error(err);
       }
@@ -37,7 +36,10 @@ function WhoToFollow() {
           <Item key={idx}>
             <Avatar />
 
-            <strong>{element.name}</strong>
+            <div>
+              <strong>{element.name.slice(0, 7)}</strong>
+            </div>
+
             <span>@usuario</span>
 
             <FollowButton>Seguir</FollowButton>

@@ -7,20 +7,18 @@ export const Container = styled.div`
   border-radius: 14px;
 `;
 
-
 export const Item = styled.div`
   padding: 10px 16px;
- 
 
   & + div {
     border-top: 1px solid var(--outline);
   }
 
   &:first-child {
-    padding-top: 13px;
+    padding-top: 14px;
   }
   &:last-child {
-    padding-bottom: 15px;
+    padding-bottom: 16px;
   }
 `;
 
@@ -35,6 +33,7 @@ export const Avatar = styled.div`
   background: var(--gray);
   border-radius: 50%;
   margin-right: 10px;
+  align-items: center;
 `;
 
 export const FollowButton = styled.button`
