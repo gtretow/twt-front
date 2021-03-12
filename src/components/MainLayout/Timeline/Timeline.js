@@ -39,10 +39,10 @@ function Timeline() {
           <Follows>
             <span>
               <PersonIcon />
-              Seguindo <strong>100</strong>
+              Seguindo <strong>116</strong>
             </span>
             <span>
-              <strong>999999 </strong>
+              <strong>7.086 </strong>
               seguidores
             </span>
           </Follows>

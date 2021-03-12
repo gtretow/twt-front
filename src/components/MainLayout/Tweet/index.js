@@ -11,6 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Body = styled.div`
+  flex-direction: column;
   display: flex;
   margin-top: 3px;
   position: relative;
@@ -34,6 +35,9 @@ export const Content = styled.div`
   width: 100%;
   margin-top: 2px;
   padding-left: 59px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--search);
+
 `;
 export const Header = styled.div`
   display: flex;
@@ -118,7 +122,8 @@ export const Icons = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 11px auto 0px;
+  margin: 11px auto 14px;
+  
   width: 100%;
 
   @media (min-width: 330px) {

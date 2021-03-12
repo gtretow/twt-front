@@ -39,10 +39,10 @@ function Tweet() {
   return (
     <Container>
       <Body>
-        <Avatar />
         {users.map((element, idx) => (
           <Content key={idx}>
             <Header>
+              <Avatar />
               <strong>Provi</strong>
               <span>@provi</span>
               <Dot />
@@ -66,7 +66,6 @@ function Tweet() {
             </Icons>
           </Content>
         ))}
-        <Content></Content>
       </Body>
     </Container>
   );

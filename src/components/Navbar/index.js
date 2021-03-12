@@ -36,7 +36,7 @@ export const SideMenu = styled.div`
   @media (min-width: 1280px) {
     align-items: flex-start;
   }
-  width: 200px;
+  width: 180px;
   
 `;
 
